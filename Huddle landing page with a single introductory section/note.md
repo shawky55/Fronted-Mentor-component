@@ -1,4 +1,4 @@
-<img src="#"></img>
+<img src="https://github.com/shawky55/Fronted-Mentor-component/blob/master/Huddle%20landing%20page%20with%20a%20single%20introductory%20section/screenshot/Screen%20Shot%202022-04-18%20at%2001.23.50.png"></img>
 
 
 <h1 align="center">Huddle landing page with a single introductory section</h1>
@@ -9,7 +9,7 @@
       Live
     </a>
   <span> | </span> 
-     <a href="https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-6uAm3BHTq">
+     <a href="https://github.com/shawky55/Fronted-Mentor-component/tree/master/Huddle%20landing%20page%20with%20a%20single%20introductory%20section">
       Solution
     </a> 
   </h3>
