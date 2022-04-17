@@ -1,0 +1,145 @@
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue-main: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%)
+}
+
+*,
+::after,
+::before {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--Very-dark-blue-main);
+    min-height: 100vh;
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    width: 360px;
+    background-color: var(--Very-dark-blue-card);
+    border-radius: 11px;
+}
+
+.img-container {
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.img-container img {
+    border-radius: 10px;
+}
+
+.img-container:hover::after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../images/icon-view.svg), rgba(0, 255, 247, 0.603);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.owner .creation span:hover,
+.title:hover {
+    color: var(--cyan);
+}
+
+.padding {
+    padding: 10px 30px;
+}
+
+.img-container {
+    padding: 20px 30px;
+}
+
+.title {
+    color: var(--White);
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 25px;
+}
+
+.description .text {
+    color: var(--soft-blue);
+    padding-top: 12px;
+    font-weight: 200;
+}
+
+.state {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: solid var(--Very-dark-blue-line) 2px;
+}
+
+.curreny {
+    display: flex;
+    flex-grow: 1;
+    gap: 6px;
+    color: var(--cyan);
+    font-weight: 700;
+}
+
+.curreny img {
+    align-self: center;
+}
+
+.time {
+    display: flex;
+    flex-grow: 1;
+    gap: 6px;
+    justify-content: flex-end;
+    color: var(--soft-blue);
+}
+
+.time img {
+    align-self: center;
+}
+
+.owner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 30px;
+    gap: 20px;
+}
+
+.owner .avatar-container {
+    width: 35px;
+}
+
+.owner .avatar-container {
+    border: white 1px solid;
+    border-radius: 50%;
+}
+
+.owner .creation {
+    color: var(--soft-blue);
+}
+
+.owner .creation span {
+    color: var(--White);
+    display: inline-block;
+    margin-left: 7px;
+}

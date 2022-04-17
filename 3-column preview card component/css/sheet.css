@@ -1,0 +1,139 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    /* transparent white color to ->paragraphs**/
+    --Very-light-gray: hsl(0, 0%, 95%);
+    /* very light gray to -->(background, headings, buttons)*/
+    --small-paddign: 40px;
+    --large-pdding: 60px;
+}
+
+*,
+::after,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height:100vh;
+    align-items: center;
+    background-color: var(--Very-light-gray);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', 'cursive';
+}
+
+p,
+button {
+    font-family: 'Lexend Deca', 'sans-serif';
+}
+
+p {
+    color: var(--Transparent-white);
+}
+
+button {
+    font-style: inherit;
+    border: none;
+    background-color: transparent;
+    background-color: var(--Very-light-gray)
+}
+
+.container {
+    max-width: 1000px;
+    display: flex;
+}
+
+.main-card {
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.card {
+    padding: 30px 50px;
+}
+
+.sedans-section {
+    background-color: var(--Bright-orange);
+}
+
+.sedans-section button {
+    color: var(--Bright-orange);
+}
+
+.suvs-section {
+    background-color: var(--Dark-cyan);
+}
+
+.suvs-section button {
+    color: var(--Dark-cyan);
+}
+
+.luxury-section {
+    background-color: var(--Very-dark-cyan);
+}
+
+.lucury-section button {
+    color: var(--Very-Dark-cyan);
+}
+
+.card img {
+    padding-bottom: var(--small-paddign);
+    padding-top: 15px;
+}
+
+.card h1 {
+    font-size: 35px;
+    color: var(--Very-light-gray);
+    padding-bottom: var(--small-paddign);
+    font-weight: 700;
+}
+
+.card p {
+    line-height: 2;
+    font-weight: 400;
+    padding-bottom: var(--large-pdding);
+}
+
+.card button {
+    font-size: 15px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 50px;
+}
+
+.card button:hover {
+    border: var(--Transparent-white) 2px solid;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+
+@media (max-width:700px) {
+    .container {
+        max-width: 375px;
+        flex-direction: column;
+    }
+    .main-card {
+        margin: 10px 0px;
+        border-radius: 0;
+    }
+}
