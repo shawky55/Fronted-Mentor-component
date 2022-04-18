@@ -5,7 +5,7 @@
 
 <div align="center">
   <h3>
-    <a href="fsdaf/" color="white">
+    <a href="https://sh55-huddle-landing-page.netlify.app/" color="white">
       Live
     </a>
   <span> | </span> 
