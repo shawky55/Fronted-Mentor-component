@@ -1,14 +1,14 @@
-<img src="d"></img>
+<img src="https://raw.githubusercontent.com/shawky55/Fronted-Mentor-component/master/3-column%20preview%20card%20component/design/cardScreenShot.png?token=GHSAT0AAAAAABRNKJ4PTVIIVRO4QMGXTM5MYTB2LFQ"></img>
 
 <h1 align="center">3-column preview card component</h1>
 
 <div align="center">
   <h3>
-    <a href="d" color="white">
+    <a href="https://fanciful-queijadas-d96392.netlify.app/" color="white">
       Live
     </a>
   <span> | </span> 
-     <a href="d">
+     <a href="https://github.com/shawky55/Fronted-Mentor-component/tree/master/3-column%20preview%20card%20component">
       Solution
     </a> 
   </h3>
