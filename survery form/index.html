@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <h1 id="title">freeCodeCamp Survey Form</h1>
+          <p id="description">
+            Thank you for taking the time to help us imporve the platform
+          </p>
+        </div>
+      </header>
+
+      <div class="container">
+        <form id="survey-form">
+          <div class="formgroup">
+            <label for="nameInput" id="name-label">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your name"
+              name="nameInput"
+              required
+            />
+          </div>
+          <div class="formgroup">
+            <label for="emailInput" id="email-label">Email</label>
+            <input
+              id="email"
+              required
+              type="email"
+              placeholder="Enter your E-mail"
+              name="emailInput"
+            />
+          </div>
+          <div class="formgroup">
+            <label for="ageInput" id="number-label" min="0" max="100"
+              >Age(optional)</label
+            >
+            <input
+              placeholder="age"
+              id="number"
+              type="number"
+              name="ageInput"
+              min="0"
+              max="100"
+            />
+          </div>
+          <div class="formgroup">
+            <label for="currentRoleInput"
+              >Which option best describes your current role?
+            </label>
+            <select name="currentRoleInput" id="">
+              <option disabled selected value>Select current role</option>
+              <option value="student">Student</option>
+              <option value="job">Full Time Job</option>
+              <option value="learner">Full Time Learner</option>
+              <option value="preferNo">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="formgroup">
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label>
+              <input
+                name="user-recommend"
+                value="definitely"
+                type="radio"
+                class="input-radio"
+                checked
+              />Definitely</label
+            >
+            <label for="">
+              <input
+                name="user-recommend"
+                value="maybe"
+                type="radio"
+                class="input-radio"
+              />
+              Maybe</label
+            >
+            <label for="">
+              <input
+                name="user-recommend"
+                value="notsure"
+                type="radio"
+                class="input-radio"
+              />
+              Maybe</label
+            >
+          </div>
+          <div class="formgroup">
+            <label for="freeCodeCampFeature"
+              >What is your favorite feature of freeCodeCamp?
+            </label>
+            <select name="freeCodeCampFeature" id="dropdown">
+              <option disabled selected value>Select Feature</option>
+              <option value="Challenges">Challenges</option>
+              <option value="project">Project</option>
+              <option value="community">Community</option>
+              <option value="opensource">Open source</option>
+            </select>
+          </div>
+          <div class="formgroup">
+            <p for="skillimporved">What would you like to see imporved ?</p>
+            <label>
+              <input type="checkbox" name="preferskill" value="fronted" />
+              Front-end Projects</label
+            >
+            <label>
+              <input type="checkbox" name="preferskill" value="backend" />
+              Back-end Projects</label
+            >
+            <label>
+              <input
+                type="checkbox"
+                name="preferskill"
+                value="DataVisualization"
+              />
+              Data Visualization</label
+            >
+            <label>
+              <input type="checkbox" name="preferskill" value="challenges" />
+              Challenges</label
+            >
+            <label>
+              <input type="checkbox" name="preferskill" value="opensource" />
+              Open source Community</label
+            >
+            <label>
+              <input type="checkbox" name="preferskill" value="giiterhelp" />
+              Gitter help rooms
+            </label>
+            <label>
+              <input type="checkbox" name="preferskill" value="videos" />
+              Videos
+            </label>
+            <label>
+              <input type="checkbox" name="preferskill" value="citymeetups" />
+
+              City Meetup
+            </label>
+            <label>
+              <input type="checkbox" name="preferskill" value="wiki" />
+              Wiki
+            </label>
+          </div>
+          <div class="formgroup">
+            <label for=""> Any commnets or suggestions ?</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Enter you comments here ...."
+            >
+            </textarea>
+          </div>
+          <div class="formgroup">
+            <a class="formgroup submitbtn" id="submit">Submit</a>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
