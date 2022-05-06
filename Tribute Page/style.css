@@ -1,0 +1,61 @@
+:root {
+  --bg-color: #eeeeee;
+  --text-color: #323232;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--text-color);
+}
+
+.padding {
+  padding: 1em;
+}
+.container {
+  padding: 0px 1em;
+  margin: 0 auto;
+}
+/* header section */
+header .container {
+  text-align: center;
+  background-color: var(--bg-color);
+}
+header .intro {
+  background-color: var(--bg-color);
+  margin-top: 2em;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+figure {
+  margin: 0 auto;
+  background-color: white;
+}
+figure img {
+ max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* section //////////// */
+section {
+  background-color: var(--bg-color);
+}
+section .container {
+  max-width: 500px;
+}
+section h2 {
+  text-align: center;
+}
+
+ul li {
+  padding: 1em;
+}
+
+ul li > span {
+  font-weight: bold;
+}
