@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/shawky55/Fronted-Mentor-component/master/3-column%20preview%20card%20component/design/cardScreenShot.png?token=GHSAT0AAAAAABRNKJ4OOIQEBZO5MQ4EZPU4YTCVSMA"></img>
+<img src="https://raw.githubusercontent.com/shawky55/Fronted-Mentor-component/master/3-column%20preview%20card%20component/images/Desktop-preview.png?token=GHSAT0AAAAAABUE6SYXDVKDT7KPHEL5QWJMYUDUZBQ"></img>
 
 <h1 align="center">3-column preview card component</h1>
 
