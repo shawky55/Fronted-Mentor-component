@@ -21,7 +21,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [solution URL](https://github.com/shawky55/stats-preview-card-component-main#screenshot)
-- Live Site URL: [live site URL ](https://shawky55.github.io/stats-preview-card-component-main/)
+- Live Site URL: [live site URL ](https://sh55-insight.netlify.app/)
 
 ## My process
 
